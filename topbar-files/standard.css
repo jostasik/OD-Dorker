@@ -1,0 +1,17 @@
+body {
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left: 0px; margin-right: 0px;
+	background: ##22262A;
+	font-family : "Trebuchet MS", Tahoma, Helvetica, sans-serif;
+	color: #232323;
+	font-size= 12px;
+	}
+A 		{ color: #664411; font-family: "Trebuchet MS", Tahoma, Helvetica, sans-serif; text-decoration: none; font-weight:bold;} 
+A:link		{ color: #3333A4; } 
+A:visited	{ color: #3333A4; } 
+A:hover		{ text-decoration: underline;  } 
+
+td {background= #ffffff; border-color=:#ffffff;}
+.contacts { color: #CCCC99; font-weight:bold;}
+.title { font-weight:bold; font-size: 20px; }

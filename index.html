@@ -1,57 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Google Dorks for Open Directories">
-    <meta name="author" content="jostasik">
-    <meta name="description" content="Advanced google search syntax generator.">
+    <meta charset="utf-8" />
+    <meta name="description" content="Google Dorks for Open Directories" />
+    <meta name="author" content="jostasik" />
+    <meta
+      name="description"
+      content="Advanced google search syntax generator."
+    />
     <title>file surfer</title>
     <script type="text/javascript" src="js/search.js"></script>
-    <link rel="stylesheet" href="css/standard.css" type="text/css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BWQDGE068"></script>
+    <link rel="stylesheet" href="css/standard.css" type="text/css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8BWQDGE068"
+    ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-8BWQDGE068');
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "G-8BWQDGE068")
     </script>
-</head>
-<body>
-  <table border="2" cellpadding="2" cellspacing="0" height="50" width="100%">
-    <tbody>
+  </head>
+  <body>
+    <table border="2" cellpadding="2" cellspacing="0" height="50" width="100%">
+      <tbody>
         <tr>
           <td align="left" valign="center">
-            <img src="images/file-surfer.png" height="50">
+            <img src="images/file-surfer.png" height="50" />
           </td>
           <td align="left" valign="center">
             <form name="menufrm">
-                Deep Search: 
-                <select name="blog">
-                  <option value="0">No</option>
-                  <option value="1">Yes</option>
-                </select>
-                File Types: 
-                <select name="filetype">
-                  <option value="">All</option>
-                  <option value="%2B(.rar|.tar|.zip|.sit)">Archives</option>
-                  <option value="%2B(.ogg|.mp3|.flac|.wma|.m4a|.flac|.alac|.ape|.aac))">Audio</option>
-                  <option value="%2B(.MOBI|.EPUB|.PDF|.MOBI|.EPUB)">e-Books</option>
-                  <option value="%2B(.doc|.docx|.md|.odt|.pages|.pdf|.rtf|.sxw|.tiff|.txt)">Docs</option>
-                  <option value="%2B(.jpg|.gif|.png|.tif|.tiff|.psd)">Images</option>
-                  <option value=".torrent">Torrents</option>
-                  <option value="%2B(.mkv|.mp4|.avi|.mov|.mpg|.wmv)">Videos</option>
-                </select>
-                <br>
-                Search: 
-                <input name="string" size="30" class="formStyle" type="text">
-                <input value="Send it!" onclick="createsearch();return false;" type="submit">
-              </form>
-            <br>
+              Deep Search:
+              <select name="blog">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+              </select>
+              File Types:
+              <select name="filetype">
+                <option value="">All</option>
+                <option value="%2B(.rar|.tar|.zip|.sit)">Archives</option>
+                <option
+                  value="%2B(.ogg|.mp3|.flac|.wma|.m4a|.flac|.alac|.ape|.aac))"
+                >
+                  Audio
+                </option>
+                <option value="%2B(.MOBI|.EPUB|.PDF|.MOBI|.EPUB)">
+                  e-Books
+                </option>
+                <option
+                  value="%2B(.doc|.docx|.md|.odt|.pages|.pdf|.rtf|.sxw|.tiff|.txt)"
+                >
+                  Docs
+                </option>
+                <option value="%2B(.jpg|.gif|.png|.tif|.tiff|.psd)">
+                  Images
+                </option>
+                <option value=".torrent">Torrents</option>
+                <option value="%2B(.mkv|.mp4|.avi|.mov|.mpg|.wmv)">
+                  Videos
+                </option>
+              </select>
+              <br />
+              Search:
+              <input name="string" size="30" class="formStyle" type="text" />
+              <input
+                value="Send it!"
+                onclick="createsearch();return false;"
+                type="submit"
+              />
+            </form>
+            <br />
           </td>
         </tr>
       </tbody>
     </table>
   </body>
-</body>
 </html>
